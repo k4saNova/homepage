@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {pageTypes, pageProps, imageList} from './variables.js';
-import testMd from './md/international-conference.md';
 
 const renderTitle = (p) => {
     switch (p){

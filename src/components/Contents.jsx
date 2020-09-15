@@ -108,6 +108,7 @@ const renderResearch = () => {
 	        <div className="content">
 	          <h3>国内学会 / Domestic Conference in Japan</h3>
                   <ul>
+                    <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;模倣ルールを用いた機械学習の説明手法&quot;, 第34回人工知能学会全国大会, 熊本, 2019年 6月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;局所領域におけるモデルの模倣による機械学習の説明法&quot;, 第22回情報論的学習理論ワークショップ (IBIS 2019), 愛知, 2019年 11月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;並列計算による機械学習の説明手法の高速化の検討&quot;, 第18回情報科学技術フォーラム, 岡山, 2019年 9月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, 徳山豪, &quot;特徴パターンを用いた機械学習の説明手法&quot;, 第33回人工知能学会全国大会, 新潟, 2019年 6月</p></li>
@@ -116,7 +117,16 @@ const renderResearch = () => {
                     <li><p><strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVR&quot;, 第42回 知能システムシンポジウム, 2015年 3月</p></li>
                     <li><p>江渕文人, <strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVMの多クラス問題への拡張&quot;, 第42回 知能システムシンポジウム, 2015年 3月</p></li>
                     <li><p><strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVM&quot;, 計測自動制御学会 システム・情報部門 学術講演会, 2014月 11月</p></li>
-                  </ul>
+                </ul>
+	        </div>
+	      </div>
+
+              <div className="tile is-child box">
+	        <div className="content">
+	          <h3>その他 / Other</h3>
+                <ul>
+                    <li><strong>浅野孝平</strong>, &quot;機械学習の解釈性・説明性に関する研究動向&quot;, DuEX 数理工学PBL, 大阪大学, 2020 2月</li>
+                </ul>
 	        </div>
 	      </div>	      
 	    </div>
@@ -155,7 +165,8 @@ const renderLinks = () => {
 	        <p className="title">Activities</p>
 	        <ul>
 	          <li><a href="https://github.com/k4saNova">GitHub</a></li>
-                  <li><a href="https://qiita.com/k4saNova">Qiita</a></li>
+              <li><a href="https://qiita.com/k4saNova">Qiita</a></li>
+              <li><a href="https://www.slideshare.net/KoheiAsano3">SlideShare</a></li>
 	        </ul>
 	      </article>
             </div>
@@ -175,8 +186,8 @@ const Contents = (props) => {
         return renderLinks();
     default: // home
         return (
-            <div>
-            </div>);
+            <>
+            </>);
     }
 };
 
