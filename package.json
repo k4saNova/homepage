@@ -1,6 +1,6 @@
 {
   "name": "homepage",
-  "homepage": ".",
+  "homepage": "http://.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,16 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4saNova/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k4saNova/homepage/issues"
   }
 }
