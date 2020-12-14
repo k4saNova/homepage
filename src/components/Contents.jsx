@@ -97,6 +97,7 @@ const renderResearch = () => {
 	        <div className="content">
 	          <h3>国際学会 / International Conference</h3>
 	          <ul>
+	                <li><p><strong>K. Asano</strong> and J. Chun, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns&quot;, The 13th International Conference on Agents and Artificial Intelligence (ICAART2019), (accepted)</p></li>
                     <li><p><strong>K. Asano</strong>, A. Koike, J. Chun and T. Tokuyama, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns&quot;, The 28th International Conference on Artificial Neural Network (ICANN2019), Part I, LNCS11727, pp. 241--252, Munich, Germany, September, 2019. (refereed, oral presentation) <a href="https://doi.org/10.1007/978-3-030-30487-4_19">[paper]</a></p></li>
                     <li><p><strong>K. Asano</strong>, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns and its Applications&quot;, The 6th Annual Data Science in Life Sciences and Engineering Symposium, Cleveland, USA, August, 2019. (non-refereed, oral and poster presentation)</p></li>
                     <li><p>Q. Labernia, Y. Kabashima, M. Irie, T. Oike, <strong>K. Asano</strong>, J. Chun and T. Tokuyama, &quot;Large-Scale Taxonomy Problem: a Mixed Machine Learning Approach&quot;, SIGIR 2018 eCom Data Challenge, Ann Arbor, Michigan, USA, July 2018. (refereed, poster presentation) <a href="https://sigir-ecom.github.io/ecom18DCPapers/ecom18DC_paper_4.pdf">[paper]</a></p></li>
@@ -108,12 +109,12 @@ const renderResearch = () => {
 	        <div className="content">
 	          <h3>国内学会 / Domestic Conference in Japan</h3>
                   <ul>
-                    <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;模倣ルールを用いた機械学習の説明手法&quot;, 第34回人工知能学会全国大会, 熊本, 2019年 6月</p></li>
+                    <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;模倣ルールを用いた機械学習の説明手法&quot;, 第34回人工知能学会全国大会, 熊本, 2020年 6月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;局所領域におけるモデルの模倣による機械学習の説明法&quot;, 第22回情報論的学習理論ワークショップ (IBIS 2019), 愛知, 2019年 11月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, &quot;並列計算による機械学習の説明手法の高速化の検討&quot;, 第18回情報科学技術フォーラム, 岡山, 2019年 9月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, 徳山豪, &quot;特徴パターンを用いた機械学習の説明手法&quot;, 第33回人工知能学会全国大会, 新潟, 2019年 6月</p></li>
                     <li><p><strong>浅野孝平</strong>, 全眞嬉, 徳山豪, &quot;2分決定図を用いた機械学習予測の説明手法&quot;, 第17回情報科学技術フォーラム, 福岡, 2018年 9月</p></li>
-                    <li><p><strong>K. Asano</strong>, K. Kikuchi, Q. Larbernia, Y. Kabashima and T. Tokuyama, &quot;Challenge to Long-Term Prediction of Electiricity Load&quot;, Graduate Program in Data Science International Kick-off Symposium, Sendai, February, 2017</p></li>
+                    <li><p><strong>K. Asano</strong>, K. Kikuchi, Q. Larbernia, Y. Kabashima and T. Tokuyama, &quot;Challenge to Long-Term Prediction of Electiricity Load&quot;, Graduate Program in Data Science International Kick-off Symposium, Sendai, February, 2018</p></li>
                     <li><p><strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVR&quot;, 第42回 知能システムシンポジウム, 2015年 3月</p></li>
                     <li><p>江渕文人, <strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVMの多クラス問題への拡張&quot;, 第42回 知能システムシンポジウム, 2015年 3月</p></li>
                     <li><p><strong>浅野孝平</strong>, 北村拓也, &quot;目的関数値に基づいた特徴選択によるスパースLS-SVM&quot;, 計測自動制御学会 システム・情報部門 学術講演会, 2014月 11月</p></li>
