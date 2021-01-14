@@ -97,7 +97,7 @@ const renderResearch = () => {
 	        <div className="content">
 	          <h3>国際学会 / International Conference</h3>
 	          <ul>
-	                <li><p><strong>K. Asano</strong> and J. Chun, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns&quot;, The 13th International Conference on Agents and Artificial Intelligence (ICAART2021), (accepted)</p></li>
+	            <li><p><strong>K. Asano</strong> and J. Chun, &quot;Post-hoc Explanation using a Mimic Rule for Numerical Data&quot;, The 13th International Conference on Agents and Artificial Intelligence (ICAART2021), (accepted)</p></li>
                     <li><p><strong>K. Asano</strong>, A. Koike, J. Chun and T. Tokuyama, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns&quot;, The 28th International Conference on Artificial Neural Network (ICANN2019), Part I, LNCS11727, pp. 241--252, Munich, Germany, September, 2019. (refereed, oral presentation) <a href="https://doi.org/10.1007/978-3-030-30487-4_19">[paper]</a></p></li>
                     <li><p><strong>K. Asano</strong>, &quot;Model-Agnostic Explanations for Decisions using Minimal Patterns and its Applications&quot;, The 6th Annual Data Science in Life Sciences and Engineering Symposium, Cleveland, USA, August, 2019. (non-refereed, oral and poster presentation)</p></li>
                     <li><p>Q. Labernia, Y. Kabashima, M. Irie, T. Oike, <strong>K. Asano</strong>, J. Chun and T. Tokuyama, &quot;Large-Scale Taxonomy Problem: a Mixed Machine Learning Approach&quot;, SIGIR 2018 eCom Data Challenge, Ann Arbor, Michigan, USA, July 2018. (refereed, poster presentation) <a href="https://sigir-ecom.github.io/ecom18DCPapers/ecom18DC_paper_4.pdf">[paper]</a></p></li>
