@@ -85,7 +85,7 @@ const render = (name) => {
     renderContent(name);
 };
 
-const main = async () => {
+const init = async () => {
     initFirebase();
 
     // fetch image urls
@@ -106,5 +106,5 @@ const main = async () => {
     );
 };
 
-main();
+init();
 
