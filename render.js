@@ -1,4 +1,4 @@
-const contentNames = ["home", "profile", "research", "link"];
+const contentNames = ["home", "profile", "research"];
 const headerTitleTemplate = document.querySelector("#header-title-template").content;
 const headerContentTemplate = document.querySelector("#header-content-template").content;
 const bodyContents = Object.fromEntries(
