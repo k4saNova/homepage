@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Kohei Asano</title>
 	<meta name="description" content="This is a webpage of Kohei Asano">
-	<meta name="keywords" content="Kohei Asano,浅野孝平">
+	<meta name="keywords" content="Kohei Asano,浅野 孝平">
 	<link rel="icon" href="favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
@@ -13,36 +13,25 @@
 	<script src="https://kit.fontawesome.com/3b24d5f5b6.js" crossorigin="anonymous"></script>
 </head>
 
-
-<template id="header-title-template">
-	<div class="container has-text-centered">
-		<h1 class="title"></h1>
-	</div>
-</template>
-
-<template id="header-content-template">
-	<div class="container has-text-centered">
-		<div class="columns is-vcentered">
-			<div class="column is-5">
-				<figure class="image">
-					<img>
-				</figure>
-			</div>
-			<div class="column is-6 is-offset-1">
-				<h1 class="title is-3">Kohei Asano, Ph.D</h1>
-				<h2 class="title is-3">Data Scientist / Search Engineer</h2>
+<body>
+	<section id="header" class="hero is-dark">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns is-vcentered">
+					<div class="column is-5">
+						<figure lass="image">
+							<img id="top-image">
+						</figure>
+					</div>
+					<div class="column is-6 is-offset-1">
+						<h1 class="title is-3">Kohei Asano, Ph.D</h1>
+						<h2 class="title is-3">Data Scientist / Search Engineer</h2>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</template>
+	</section>
 
-
-<template id="home-template">
-	<div></div>
-</template>
-
-
-<template id="profile-template">
 	<div class="container">
 		<div class="v-margin-20px"></div>
 		<div class="tile is-ancestor">
@@ -97,9 +86,7 @@
 		</div>
 		<div class="v-margin-20px"></div>
 	</div>
-</template>
 
-<template id="research-template">
 	<div class="container">
 		<div class="v-margin-20px"></div>
 		<div class="tile is-ancestor">
@@ -250,51 +237,6 @@
 		</div>
 		<div class="v-margin-20px"></div>
 	</div>
-</template>
-
-
-<body>
-	<section id="header" class="hero is-dark">
-		<div class="hero-head">
-			<nav class="navbar">
-				<div class="container">
-					<div class="navbar-brand">
-						<span class="navbar-burger burger" data-target="navbar-menu">
-							<span></span>
-							<span></span>
-						</span>
-					</div>
-
-					<div id="navbar-menu" class="navbar-menu">
-						<div class="navbar-end">
-							<span class="navbar-item">
-								<a name="home" class="button is-white is-outlined">
-									<span class="icon"><i class="fas fa-home"></i></span>
-									<span>Home</span>
-								</a>
-							</span>
-							<span class="navbar-item">
-								<a name="profile" class="button is-white is-outlined">
-									<span class="icon"><i class="fas fa-graduation-cap"></i></span>
-									<span>Profile</span></a>
-							</span>
-							<span class="navbar-item">
-								<a name="research" class="button is-white is-outlined">
-									<span class="icon"><i class="fas fa-book"></i></span>
-									<span>Research</span></a>
-							</span>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-
-		<div class="hero-body">
-		</div>
-	</section>
-
-	<section id="main-content">
-	</section>
 
 	<footer class="footer">
 		<div class="container">
@@ -307,9 +249,9 @@
 	</footer>
 
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
 	<script src="render.js"></script>
 
 </body>
